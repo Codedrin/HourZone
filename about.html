@@ -11,35 +11,67 @@
         <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <section>
-            <div class = "image">
-               <img src="story.png">
+        <nav>
+            <div class="toggle">
+                <i class="fa fa-bars menu"></i>
             </div>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="login.html"><li>Sign in </li></a>
+            </ul>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+     
+<div class = "wrapper pre">
+  
+</div>
+<div class="wrapper">
+  <div class="title">
 
-            <div class = "content">
-                <h2>About Us</h2>
-                <span><!-- line here --></span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aspernatur voluptas inventore ab voluptates nostrum minus illo laborum harum laudantium earum ut, temporibus fugiat sequi explicabo facilis unde quos corporis!</p>
-                <ul class = "links">
-                    <li><a href = "index.html">HOME</a></li>
-                    <div class = "vertical-line"></div>
-                    <li><a href = "index.html">FEATURED</a></li>
-                    <div class = "vertical-line"></div>
-                    <li><a href = "index.html">PRODUCT</a></li>
-                </ul>
+    <div class="line"></div>
+  </div>
+  <div class="container">
+    <div class="card tabs">
+      <input id="tab-1" type="radio" class="tab tab-selector" checked="checked" name="tab" />
+      <label for="tab-1" class="tab tab-primary">Product</label>
+      <input id="tab-2" type="radio" class="tab tab-selector" name="tab" />
+      <label for="tab-2" class="tab tab-success">Business</label>
+      <input id="tab-3" type="radio" class="tab tab-selector" name="tab" />
+      <label for="tab-3" class="tab tab-default">Shipping</label>
+      <input id="tab-4" type="radio" class="tab tab-selector" name="tab" />
+      <label for="tab-4" class="tab tab-warning">Published</label>
+      <div class="tabsShadow"></div>
+      <div class="glider"></div>
+      <section class="content">
+        <div class="item" id="content-1">
+          <h2 class="tab-title tab-primary">Our Products Service</h2>
+          <p>
+            <span class = "numit"></span>our product is good and high quality especially every product used here at a cheap price will have it</p>
+        </div>
+        <div class="item" id="content-2">
+          <h2 class="tab-title tab-success">Our Business</h2>
+          <p>
+            <span class = "numit"></span>Our work is processed quickly because of the fast work and professionals involved</div>
+        <div class="item" id="content-3">
+          <h2 class="tab-title tab-default">About Shipping</h2>
+          <p>
+            <span class = "numit">The shipping of our products seems to be the same as the shoppe that sometimes will have a notification on your mobile device if our product is down especially now that Christmas is coming</span></div>
+        <div class="item" id="content-4">
+          <h2 class="tab-title tab-warning">Publishing</h2>
+          <p>
+            <span class = "numit">This was done on December 1, 2022 because of our e commerce subject that we were given to make a project that anyone can buy.</span> </div>
+      </section>
 
-            </div>
-        </section>
+    </div>
+  </div>
+</div>
     
-            <!--=============== SCROLL UP ===============-->
-            <a href="#" class="scrollup" id="scroll-up">
-                <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
-            </a>
-    
+
+    </body>
             <!--=============== SWIPER JS ===============-->
             <script src="assets/js/swiper-bundle.min.js"></script>
     
             <!--=============== MAIN JS ===============-->
-            <script src="assets/js/main.js"></script>
-    </body>
+            <script src="about.js"></script>
 </html>

@@ -416,6 +416,7 @@ a{
 .featured__tag {
   background-color: var(--first-color);
   padding: .5rem 1rem;
+    text-align: center;
   color: #fff;
   text-transform: uppercase;
   font-size: var(--small-font-size);

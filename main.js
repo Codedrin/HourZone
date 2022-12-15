@@ -104,11 +104,7 @@ const cart = document.getElementById('cart'),
 
 /*===== CART SHOW =====*/
 /* Validate if constant exists */
-if(cartShop){
-    cartShop.addEventListener('click', () =>{
-        cart.classList.add('show-cart')
-    })
-}
+
 
 /*===== CART HIDDEN =====*/
 /* Validate if constant exists */
